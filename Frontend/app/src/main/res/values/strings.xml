@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Poke Builder</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string-array name="spinList">
+        <item>Select Team</item>
+        <item>Team 1</item>
+        <item>Team 2</item>
+        <item>Team 3</item>
+    </string-array>
+    <string-array name="spinTierList">
+        <item>Select Tier</item>
+        <item>All Pokemon</item>
+        <item>Over Used</item>
+        <item>Under Used</item>
+        <item>Rarely Used</item>
+        <item>Never Used</item>
+        <item>Uber</item>
+        <item>Under Used Banlist</item>
+        <item>Rarely Used Banlist</item>
+        <item>Never Used Banlist</item>
+        <item>Tier List PU Banlist</item>
+        <item>Tier List PU</item>
+        <item>Little Cup</item>
+        <item>Not Fully Evolved</item>
+        <item>Little Cup Uber</item>
+    </string-array>
+</resources>

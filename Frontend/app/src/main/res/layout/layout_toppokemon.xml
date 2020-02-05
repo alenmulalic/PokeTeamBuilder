@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:id="@+id/topPokemon">
+
+    <TextView
+        android:id="@+id/pokemonRANKTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:text="1"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:fontFamily="@font/pokemon_solid"></TextView>
+
+    <TextView
+        android:id="@+id/pokemonNOTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:text="000"
+        android:textColor="#000"></TextView>
+
+    <TextView
+        android:id="@+id/pokemonNAMETop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:text="Pokemon00000"
+        android:textColor="#000"></TextView>
+
+
+    <TextView
+        android:id="@+id/pokemonTYPE1Top"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/pokemon_type_colorbackground"
+        android:text="FIGHTING"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="12dp"></TextView>
+
+    <TextView
+        android:id="@+id/pokemonTYPE2Top"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="110dp"
+        android:layout_toRightOf="@id/pokemonTYPE1Top"
+        android:background="@drawable/pokemon_type_colorbackground"
+        android:text="FIGHTING"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="12dp"></TextView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pokemonIMAGETop"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/ic_launcher"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+</RelativeLayout>

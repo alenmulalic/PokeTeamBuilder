@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/recommendLayout">
+
+    <TextView
+        android:id="@+id/pokemonNO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000"
+        android:textColor="#000"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/pokemonNAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pokemon00000"
+        android:textColor="#000"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/pokemonTYPE1"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/pokemon_type_colorbackground"
+        android:text="FIGHTING"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/pokemonTYPE2"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/pokemonTYPE1"
+        android:background="@drawable/pokemon_type_colorbackground"
+        android:text="FIGHTING"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold">
+    </TextView>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pokemonIMAGE"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/pokemonTYPE2"
+        android:src="@mipmap/ic_launcher">
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+</RelativeLayout>

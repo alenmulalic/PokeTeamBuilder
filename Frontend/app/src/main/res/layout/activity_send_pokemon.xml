@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/bg_login"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/sendName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pokemon Name"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/sendNO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Pokemon NO."
+        app:layout_constraintTop_toBottomOf="@+id/sendName"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/sendType1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Type1"
+        app:layout_constraintTop_toBottomOf="@+id/sendNO"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/sendType2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Type2"
+        app:layout_constraintTop_toBottomOf="@+id/sendType1"
+        tools:layout_editor_absoluteX="27dp" />
+
+    <Button
+        android:id="@+id/sendbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="150dp"
+        android:onClick="sendData"
+        android:text="Send"
+        android:fontFamily="@font/pokemon_solid"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
